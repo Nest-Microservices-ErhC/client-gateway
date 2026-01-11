@@ -1,0 +1,19 @@
+### POST Crear Producto
+POST {{hostProduct}}
+
+#----------------------------
+### GET FindProducts
+GET {{hostProduct}}?page=1&limit=10
+
+#----------------------------
+### GET Busca Un Producto
+GET {{hostProduct}}/1?page=1&limit=10
+
+#----------------------------
+### Delete Elimina un Producto
+DELETE {{hostProduct}}/1?page=1&limit=10
+
+#----------------------------
+### PATCH Actualiza un Producto
+PATCH {{hostProduct}}/1?page=1&limit=10
+
